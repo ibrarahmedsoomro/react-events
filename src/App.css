@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin : 0;
+  padding: 0;
+  background-color: palevioletred;
+}
+
+
+div {
+   width: 100%;
+   height: 100vh;
+   background: plum;
+   display: flex;
+   flex-direction: column;
+    
+   text-align: center;
+}
+
+button {
+  width: 200px;
+  height: 80px;
+  padding: 12px, 20px;
+  background-color: rgb(185, 6, 185);
+  border: 2px black;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.buttons {
+  justify-content: center;
+}
